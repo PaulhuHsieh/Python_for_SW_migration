@@ -131,10 +131,10 @@ def recvdata(sendresult):
             GA = string2.split('w')
             #  for i in range(0,15):
             # string2[i] = string[i]
-            for i in range(0, 10):
+            for i in range(0, 5):
                 result.append(GA[i])
 
-            if len(result) == 10:
+            if len(result) == 5:
                 flag=1
                 getGAdata(result,sendresult)
                 break
@@ -179,15 +179,15 @@ def createTopo(topo, coreSwitch, aggrSwitch, edgeSwitch, coreSwitchNumber, aggrS
         coreSwitch[i].start([c[i]])
 
     for i in range(0, 2):
-        aggrSwitch[i].start([c[i]])
-        aggrSwitch[i + 2].start([c[i + 1]])
-        aggrSwitch[i + 4].start([c[i + 2]])
-        aggrSwitch[i + 6].start([c[i + 3]])
+        aggrSwitch[i].start([c[0]])
+        aggrSwitch[i + 2].start([c[1]])
+        aggrSwitch[i + 4].start([c[2]])
+        aggrSwitch[i + 6].start([c[3]])
     for i in range(0, 2):
-        edgeSwitch[i].start([c[i]])
-        edgeSwitch[i + 2].start([c[i + 1]])
-        edgeSwitch[i + 4].start([c[i + 2]])
-        edgeSwitch[i + 6].start([c[i + 3]])
+        edgeSwitch[i].start([c[0]])
+        edgeSwitch[i + 2].start([c[1]])
+        edgeSwitch[i + 4].start([c[2]])
+        edgeSwitch[i + 6].start([c[3]])
 
     print "\nDumping host connections\n"
     # dumpNodeConnections(net.hosts)
@@ -198,27 +198,25 @@ def createTopo(topo, coreSwitch, aggrSwitch, edgeSwitch, coreSwitchNumber, aggrS
     # iperfTest(net, topo)
 
     sendresult =[]
-
     recvdata(sendresult)
-"""
-    coreSwitch[0].cmdPrint('sudo ovs-vsctl set-controller ' + str(coreSwitch[0]) + ' tcp:' + sendresult[0] + ':6633')
-    coreSwitch[1].cmdPrint('sudo ovs-vsctl set-controller ' + str(coreSwitch[1]) + ' tcp:' + sendresult[1] + ':6633')
-    aggrSwitch[0].cmdPrint('sudo ovs-vsctl set-controller ' + str(aggrSwitch[0]) + ' tcp:' + sendresult[2] + ':6633')
-    aggrSwitch[1].cmdPrint('sudo ovs-vsctl set-controller ' + str(aggrSwitch[1]) + ' tcp:' + sendresult[3] + ':6633')
-    aggrSwitch[2].cmdPrint('sudo ovs-vsctl set-controller ' + str(aggrSwitch[2]) + ' tcp:' + sendresult[4] + ':6633')
-    aggrSwitch[3].cmdPrint('sudo ovs-vsctl set-controller ' + str(aggrSwitch[3]) + ' tcp:' + sendresult[5] + ':6633')
-    edgeSwitch[0].cmdPrint('sudo ovs-vsctl set-controller ' + str(edgeSwitch[0]) + ' tcp:' + sendresult[6] + ':6633')
-    edgeSwitch[1].cmdPrint('sudo ovs-vsctl set-controller ' + str(edgeSwitch[1]) + ' tcp:' + sendresult[7] + ':6633')
-    edgeSwitch[2].cmdPrint('sudo ovs-vsctl set-controller ' + str(edgeSwitch[2]) + ' tcp:' + sendresult[8] + ':6633')
-    edgeSwitch[3].cmdPrint('sudo ovs-vsctl set-controller ' + str(edgeSwitch[3]) + ' tcp:' + sendresult[9] + ':6633')
-"""
 
+    print(sendresult)
+
+    coreSwitch[0].cmdPrint('sudo ovs-vsctl set-controller ' + str(coreSwitch[0]) + ' tcp:' + sendresult[0] + ':6633')
+    #coreSwitch[1].cmdPrint('sudo ovs-vsctl set-controller ' + str(coreSwitch[1]) + ' tcp:' + sendresult[1] + ':6633')
+    aggrSwitch[0].cmdPrint('sudo ovs-vsctl set-controller ' + str(aggrSwitch[0]) + ' tcp:' + sendresult[1] + ':6633')
+    aggrSwitch[1].cmdPrint('sudo ovs-vsctl set-controller ' + str(aggrSwitch[1]) + ' tcp:' + sendresult[2] + ':6633')
+    #aggrSwitch[2].cmdPrint('sudo ovs-vsctl set-controller ' + str(aggrSwitch[2]) + ' tcp:' + sendresult[4] + ':6633')
+    #aggrSwitch[3].cmdPrint('sudo ovs-vsctl set-controller ' + str(aggrSwitch[3]) + ' tcp:' + sendresult[5] + ':6633')
+    edgeSwitch[0].cmdPrint('sudo ovs-vsctl set-controller ' + str(edgeSwitch[0]) + ' tcp:' + sendresult[3] + ':6633')
+    edgeSwitch[1].cmdPrint('sudo ovs-vsctl set-controller ' + str(edgeSwitch[1]) + ' tcp:' + sendresult[4] + ':6633')
+    #edgeSwitch[2].cmdPrint('sudo ovs-vsctl set-controller ' + str(edgeSwitch[2]) + ' tcp:' + sendresult[8] + ':6633')
+    #edgeSwitch[3].cmdPrint('sudo ovs-vsctl set-controller ' + str(edgeSwitch[3]) + ' tcp:' + sendresult[9] + ':6633')
 
 
 
 
     CLI(net)
-
     net.stop()
 
 
