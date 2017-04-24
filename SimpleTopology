@@ -1,0 +1,34 @@
+from mininet.net import Mininet
+from mininet.node import Controller, RemoteController, OVSController
+from mininet.cli import CLI
+from mininet.link import Intf
+from mininet.log import setLogLevel, info
+
+def myNetwork():
+
+    net = Mininet( topo=None,
+                   build=False)
+
+    info( '*** Adding controller\n' )
+    c0= net.addController(name='c0',
+                          controller=RemoteController,
+                          ip='192.168.2.130')  //設定controller資訊，我的controller是在另一台VM上
+
+    info( '*** Add switches\n')
+    s1 = net.addSwitch('s1', failMode ='secure')  //設定switch為secure模式
+    s2 = net.addSwitch('s2', failMOde ='secure')
+
+    Intf( 'eth1', node=s1 )  // eth1為先前設定的VMnet2
+    Intf( 'eth2', node=s2 ) // eth2 為VMnet3
+
+    info( '*** Add links\n')
+    net.addLink(s1,s2)
+
+    info( '*** Starting network\n')
+    net.start()
+    CLI(net)
+    net.stop()
+
+if __name__ == '__main__':
+    setLogLevel( 'info' )
+    myNetwork()

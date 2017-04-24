@@ -150,8 +150,8 @@ def createTopo(topo, coreSwitch, aggrSwitch, edgeSwitch, coreSwitchNumber, aggrS
 
     net = Mininet(topo=None, link=TCLink, controller=None)
 
-    controllerIP = "192.168.10.145"
-    controllerIP2 = "192.168.10.144"
+    controllerIP = "192.168.10.142"
+    controllerIP2 = "192.168.10.138"
     controllerIP3 = "192.168.10.139"
     controllerIP4 = "192.168.10.140"
 

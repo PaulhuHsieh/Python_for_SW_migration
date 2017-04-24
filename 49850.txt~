@@ -1,0 +1,481 @@
+15:33:39.781676 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [P.], seq 176016590:176016646, ack 1093936810, win 1452, options [nop,nop,TS val 251902850 ecr 15616756], length 56: OpenFlow
+	version 1.0, type STATS_REQUEST, length 56, xid 0x00042494
+15:33:39.781702 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], ack 56, win 361, options [nop,nop,TS val 15617122 ecr 251902850], length 0
+15:33:39.781890 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 1:405, ack 56, win 361, options [nop,nop,TS val 15617122 ecr 251902850], length 404: OpenFlow
+	version 1.0, type STATS_REPLY, length 404, xid 0x00042494
+15:33:39.788068 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], seq 56:2952, ack 405, win 1452, options [nop,nop,TS val 251902851 ecr 15617122], length 2896: OpenFlow
+	version 1.0, type STATS_REQUEST, length 56, xid 0x00042495
+	version 1.0, type STATS_REQUEST, length 56, xid 0x00042496
+	version 1.0, type STATS_REQUEST, length 56, xid 0x00042497
+	version 1.0, type STATS_REQUEST, length 56, xid 0x00042499
+	version 1.0, type STATS_REQUEST, length 56, xid 0x00042498
+	version 1.0, type STATS_REQUEST, length 56, xid 0x0004249a
+	version 1.0, type STATS_REQUEST, length 56, xid 0x0004249b
+	version 1.0, type STATS_REQUEST, length 56, xid 0x0004249c
+	version 1.0, type STATS_REQUEST, length 56, xid 0x0004249d
+	version 1.0, type STATS_REQUEST, length 56, xid 0x0004249e
+	version 1.0, type STATS_REQUEST, length 56, xid 0x0004249f
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a0
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a1
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a2
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a3
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a4
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a5
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a6
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a7
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a8
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424a9
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424aa
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424ab
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424ac
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424ad
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424ae
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424af
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b0
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b1
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b2
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b3
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b4
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b5
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b6
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b7
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b8
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424b9
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424ba
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424bb
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424bc
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424bd
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424be
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424c0
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424c1
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424bf
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424c2
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424c3
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424c4
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424c5
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424c6
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424c8
+	version 1.0, type STATS_REQUEST, length 56, xid 0x000424c7 [|openflow]
+15:33:39.788096 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], seq 2952:5848, ack 405, win 1452, options [nop,nop,TS val 251902851 ecr 15617122], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+15:33:39.788108 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], seq 5848:8744, ack 405, win 1452, options [nop,nop,TS val 251902851 ecr 15617122], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+15:33:39.788115 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], seq 8744:11640, ack 405, win 1452, options [nop,nop,TS val 251902851 ecr 15617122], length 2896: OpenFlow
+	version unknown (0x00), type 0x02, length 0, xid 0x003820ff (corrupt)
+15:33:39.788118 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], seq 11640:13088, ack 405, win 1452, options [nop,nop,TS val 251902851 ecr 15617122], length 1448: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0xce00ffff (corrupt)
+15:33:39.788124 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [P.], seq 13088:14300, ack 405, win 1452, options [nop,nop,TS val 251902851 ecr 15617122], length 1212: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+15:33:39.788150 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 0
+15:33:39.788194 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 405:441, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042495
+15:33:39.788227 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 441:477, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042496
+15:33:39.788255 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 477:513, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042497
+15:33:39.788282 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 513:549, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042499
+15:33:39.788309 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 549:585, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042498
+15:33:39.788336 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 585:621, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004249a
+15:33:39.788362 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 621:657, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004249b
+15:33:39.788391 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 657:693, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004249c
+15:33:39.788413 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 693:729, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004249d
+15:33:39.788446 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 729:765, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004249e
+15:33:39.788891 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 765, win 1452, options [nop,nop,TS val 251902851 ecr 15617123], length 0
+15:33:39.788908 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], seq 765:3661, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 2896: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004249f
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a0
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a1
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a2
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a3
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a4
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a5
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a6
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a7
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a8
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424a9
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424aa
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ab
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ac
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ad
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ae
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424af
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b0
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b1
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b2
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b3
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b4
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b5
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b6
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b7
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b8
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424b9
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ba
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424bb
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424bc
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424bd
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424be
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c0
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c1
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424bf
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c2
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c3
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c4
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c5
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c6
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c8
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c7
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424c9
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ca
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424cb
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424cc
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424cd
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424cf
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ce
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d0
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d1
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d2
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d3
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d4
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d5
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d6
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d7
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d8
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424d9
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424da
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424db
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424dc
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424dd
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424de
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424df
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e0
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e1
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e2
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e3
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e5
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e7
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e4
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e8
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e6
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ea
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424e9
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424eb
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ec
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ed
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ef
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ee [|openflow]
+15:33:39.788918 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 3661:4005, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 344: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+15:33:39.788929 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4005:4041, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424f9
+15:33:39.788943 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4041:4077, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424fa
+15:33:39.788988 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4077:4113, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424fb
+15:33:39.789016 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4113:4149, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424fc
+15:33:39.789042 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4149:4185, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424ff
+15:33:39.789059 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 4077, win 1452, options [nop,nop,TS val 251902851 ecr 15617123], length 0
+15:33:39.789068 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4185:4221, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424fe
+15:33:39.789088 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4221:4257, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x000424fd
+15:33:39.789121 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4257:4293, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042500
+15:33:39.789144 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4293:4329, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042501
+15:33:39.789175 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4329:4365, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042503
+15:33:39.789207 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4365:4401, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042504
+15:33:39.789238 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4401:4437, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042502
+15:33:39.789258 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 4365, win 1452, options [nop,nop,TS val 251902852 ecr 15617123], length 0
+15:33:39.789266 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4437:4473, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902851], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042505
+15:33:39.789290 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4473:4509, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042506
+15:33:39.789311 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 4437, win 1452, options [nop,nop,TS val 251902852 ecr 15617123], length 0
+15:33:39.789316 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4509:4545, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042508
+15:33:39.789342 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4545:4581, ack 14300, win 337, options [nop,nop,TS val 15617123 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042507
+15:33:39.789378 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 4545, win 1452, options [nop,nop,TS val 251902852 ecr 15617123], length 0
+15:33:39.789402 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4581:4617, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042509
+15:33:39.789431 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4617:4653, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004250a
+15:33:39.789451 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4653:4689, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004250c
+15:33:39.789472 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 4617, win 1452, options [nop,nop,TS val 251902852 ecr 15617123], length 0
+15:33:39.789483 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4689:4725, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004250d
+15:33:39.789510 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4725:4761, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004250b
+15:33:39.789536 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4761:4797, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004250e
+15:33:39.789552 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 4725, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.789561 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4797:4833, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004250f
+15:33:39.789581 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4833:4869, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042511
+15:33:39.789607 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4869:4905, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042512
+15:33:39.789629 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 4833, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.789634 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4905:4941, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042510
+15:33:39.789655 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4941:4977, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042513
+15:33:39.789682 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 4977:5013, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042515
+15:33:39.789699 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 4941, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.789708 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5013:5049, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042514
+15:33:39.789727 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5049:5085, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042516
+15:33:39.789747 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5085:5121, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042517
+15:33:39.789750 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5013, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.789777 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5121:5157, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042518
+15:33:39.789803 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5157:5193, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042519
+15:33:39.789816 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5121, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.789828 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5193:5229, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004251a
+15:33:39.789856 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5229:5265, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004251b
+15:33:39.789872 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5193, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.789880 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5265:5301, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004251d
+15:33:39.789894 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5301:5337, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004251e
+15:33:39.789914 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5265, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.789925 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5337:5373, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004251f
+15:33:39.789952 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5373:5409, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042520
+15:33:39.789970 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5337, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.789980 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5409:5445, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042521
+15:33:39.790003 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5445:5481, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042522
+15:33:39.790023 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5481:5517, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004251c
+15:33:39.790024 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5409, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790052 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5517:5553, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042523
+15:33:39.790073 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5553:5589, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042524
+15:33:39.790080 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5517, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790105 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5589:5625, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042525
+15:33:39.790132 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5625:5661, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042526
+15:33:39.790149 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5589, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790156 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5661:5697, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042527
+15:33:39.790175 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5697:5733, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042528
+15:33:39.790202 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5733:5769, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042529
+15:33:39.790217 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5697, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790226 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5769:5805, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004252a
+15:33:39.790277 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5805, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790303 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5805:5841, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004252b
+15:33:39.790337 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5841:5877, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004252c
+15:33:39.790365 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5877:5913, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004252d
+15:33:39.790393 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5913:5949, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004252e
+15:33:39.790414 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5949:5985, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004252f
+15:33:39.790414 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5877, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790437 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 5985:6021, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042530
+15:33:39.790458 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6021:6057, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042531
+15:33:39.790483 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 5985, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790489 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6057:6093, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042532
+15:33:39.790509 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6093:6129, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042533
+15:33:39.790537 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6129:6165, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042534
+15:33:39.790554 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6057, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790563 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6165:6201, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042535
+15:33:39.790573 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6129, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790611 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6201:6237, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042536
+15:33:39.790632 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6201, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790647 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6237:6273, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042537
+15:33:39.790674 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6273:6309, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042538
+15:33:39.790701 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6309:6345, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042539
+15:33:39.790727 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6345:6381, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004253a
+15:33:39.790744 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6309, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790754 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6381:6417, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004253b
+15:33:39.790772 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6417:6453, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004253c
+15:33:39.790793 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6453:6489, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004253d
+15:33:39.790794 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6381, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790825 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6489:6525, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004253e
+15:33:39.790851 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6525:6561, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004253f
+15:33:39.790868 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6489, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790877 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6561:6597, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042540
+15:33:39.790894 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6597:6633, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042541
+15:33:39.790911 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6561, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.790926 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6633:6669, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042542
+15:33:39.790952 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6669:6705, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042543
+15:33:39.790978 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6705:6741, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042544
+15:33:39.790994 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6669, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.791005 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6741:6777, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042545
+15:33:39.791027 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6777:6813, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042547
+15:33:39.791044 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6741, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.791053 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6813:6849, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042546
+15:33:39.791076 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6849:6885, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042548
+15:33:39.791093 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6813, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.791103 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6885:6921, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042549
+15:33:39.791123 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6921:6957, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004254a
+15:33:39.791141 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6885, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.791149 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6957:6993, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004254b
+15:33:39.791181 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 6957, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.791188 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 6993:7029, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004254c
+15:33:39.791212 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7029:7065, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004254d
+15:33:39.791240 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7065:7101, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004254e
+15:33:39.791266 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7101:7137, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004254f
+15:33:39.791283 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 7065, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.791294 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7137:7173, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042550
+15:33:39.791314 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7173:7209, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042551
+15:33:39.791335 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7209:7245, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042552
+15:33:39.791343 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 7173, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.791415 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7245:7281, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042553
+15:33:39.791442 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7281:7317, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042554
+15:33:39.791459 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7317:7353, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042555
+15:33:39.791476 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7353:7389, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042556
+15:33:39.791495 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 7245, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.791497 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7389:7425, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042557
+15:33:39.791515 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7425:7461, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042558
+15:33:39.791541 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7461:7497, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042559
+15:33:39.791568 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7497:7533, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004255a
+15:33:39.791594 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7533:7569, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004255b
+15:33:39.791620 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7569:7605, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004255c
+15:33:39.791702 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7605:7641, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004255d
+15:33:39.791738 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 7641:7677, ack 14300, win 337, options [nop,nop,TS val 15617124 ecr 251902852], length 36: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004255e
+15:33:39.793135 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 7677, win 1452, options [nop,nop,TS val 251902852 ecr 15617124], length 0
+15:33:39.793150 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], seq 7677:9125, ack 14300, win 361, options [nop,nop,TS val 15617124 ecr 251902852], length 1448: OpenFlow
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004255f
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042560
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042561
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042562
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042563
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042564
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042565
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042566
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042567
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042568
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042569
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004256a
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004256b
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004256c
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004256d
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004256e
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004256f
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042570
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042571
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042572
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042573
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042574
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042575
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042576
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042577
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042578
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042579
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004257a
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004257b
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004257c
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004257d
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004257e
+	version 1.0, type STATS_REPLY, length 36, xid 0x0004257f
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042580
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042581
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042582
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042583
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042584
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042585
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042586
+	version 1.0, type STATS_REPLY, length 36, xid 0x00042587 [|openflow]
+15:33:39.793160 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 9125:9873, ack 14300, win 361, options [nop,nop,TS val 15617124 ecr 251902852], length 748: OpenFlow
+	version unknown (0x00), type 0x02, length 0, xid 0x00000000 (corrupt)
+15:33:39.793626 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 9873, win 1452, options [nop,nop,TS val 251902853 ecr 15617124], length 0
+15:33:39.865303 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [P.], seq 14300:14320, ack 9873, win 1452, options [nop,nop,TS val 251902871 ecr 15617124], length 20: OpenFlow
+	version 1.0, type STATS_REQUEST, length 20, xid 0x00042594
+15:33:39.865438 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 9873:9885, ack 14320, win 361, options [nop,nop,TS val 15617143 ecr 251902871], length 12: OpenFlow
+	version 1.0, type STATS_REPLY, length 12, xid 0x00042594
+15:33:39.866390 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [P.], seq 14320:14332, ack 9885, win 1452, options [nop,nop,TS val 251902871 ecr 15617143], length 12: OpenFlow
+	version 1.0, type STATS_REQUEST, length 12, xid 0x00042595
+15:33:39.866561 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], seq 9885:12781, ack 14332, win 361, options [nop,nop,TS val 15617143 ecr 251902871], length 2896: OpenFlow
+	version 1.0, type STATS_REPLY, length 16268, xid 0x00042595 [|openflow]
+15:33:39.866586 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], seq 12781:15677, ack 14332, win 361, options [nop,nop,TS val 15617143 ecr 251902871], length 2896: OpenFlow
+	version unknown (0x74), type 0x61, length 25196, xid 0x65343500 [|openflow]
+15:33:39.866598 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], seq 15677:18573, ack 14332, win 361, options [nop,nop,TS val 15617143 ecr 251902871], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+15:33:39.866604 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], seq 18573:21469, ack 14332, win 361, options [nop,nop,TS val 15617143 ecr 251902871], length 2896: OpenFlow
+	version unknown (0x00), type 0x3f, length 65535, xid 0x000f4240 [|openflow]
+15:33:39.866610 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], seq 21469:24365, ack 14332, win 361, options [nop,nop,TS val 15617143 ecr 251902871], length 2896: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+15:33:39.866618 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [.], seq 24365:25813, ack 14332, win 361, options [nop,nop,TS val 15617143 ecr 251902871], length 1448: OpenFlow
+	version unknown (0x74), type 0x61, length 25196, xid 0x65323236 [|openflow]
+15:33:39.866637 IP 192.168.10.152.49850 > 192.168.10.145.6633: Flags [P.], seq 25813:26153, ack 14332, win 361, options [nop,nop,TS val 15617143 ecr 251902871], length 340: OpenFlow
+	version unknown (0x00), type 0x00, length 0, xid 0x00000000 (corrupt)
+15:33:39.866739 IP 192.168.10.145.6633 > 192.168.10.152.49850: Flags [.], ack 26153, win 1329, options [nop,nop,TS val 251902871 ecr 15617143], length 0
+
